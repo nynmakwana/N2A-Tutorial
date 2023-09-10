@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/aboutwallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    /* margin: 20px 20px 20px 20px; */
+    padding: 15px 15px 15px 15px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    border: 2px solid black;
+
+}
+
+header img{
+    margin: -20px 20px 20px 20px;
+    padding: 15px 15px 15px 15px 15px;
+
+}
+
+header p{
+    margin: -20px 20px 20px 20px;
+    padding: 15px 15px 15px 15px 15px;
+}
+
+header h6{
+    margin-bottom: 3px;
+    color: yellow;
+}
+
+
+.navbar{
+    background-color: rgb(26, 26, 66);
+    position: static;
+    top: 3px;
+    border: 2px solid black;
+    width: auto;
+
+    
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 15px 20px ;
+    color: white;    
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: red
+}
+
+.search{
+    float: right;
+    color: white;
+    padding: 10px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 160px;
+}
+
+.navbar .current{
+    color: rgb(89, 243, 75);
+}
+
+
+.aboutusbox{
+    background-color: rgb(48, 11, 83);
+    color: white;
+    margin: 5px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    height: max-content;
+    overflow: auto;
+}
+
+.regards{
+    float: right;
+    font-size: 20px;
+    margin-right: 70px;
+}
